@@ -4,14 +4,17 @@ import { useState, useEffect } from "react";
 import { allPosts } from "contentlayer/generated";
 import Link from "next/link";
 
-const data = allPosts.map((item) => {
-  return {
-    title: item.title,
-    description: item.description,
-    slug: item.slug,
-    content: item.body.raw,
-  };
-});
+const data = allPosts
+  .filter((post) => post.draft === false)
+  .slice(0, 5)
+  .map((item) => {
+    return {
+      title: item.title,
+      description: item.description,
+      slug: item.slug,
+      content: item.body.raw,
+    };
+  });
 
 const options = {
   includeScore: false,

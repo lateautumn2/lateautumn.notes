@@ -39,7 +39,7 @@ export async function generateMetadata({
       siteName: siteMetadata.siteName,
       images: [
         {
-          url: `/og?title=${page.title} - ${siteMetadata.siteRepo}`,
+          url: `${siteMetadata.ogUrl}${page.title} - ${siteMetadata.siteRepo}`,
           width: 800,
           height: 400,
         },
@@ -54,7 +54,7 @@ export async function generateMetadata({
       creator: siteMetadata.twitter,
       siteId: siteMetadata.twitterid,
       creatorId: siteMetadata.twitterid,
-      images: `/og?title=${page.title}`,
+      images: `${siteMetadata.ogUrl}${page.title} - ${siteMetadata.siteRepo}`,
     },
   }
 }

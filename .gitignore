@@ -1,3 +1,4 @@
+# vercel
 .vercel
 
 # dependencies
@@ -9,4 +10,5 @@
 # next.js
 /.next/
 
+# contentlayer
 /.contentlayer

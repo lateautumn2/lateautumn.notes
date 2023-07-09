@@ -8,7 +8,7 @@ export async function GET() {
   const feed = new Rss({
     title: siteMetadata.title,
     description: siteMetadata.description,
-    feed_url: `${siteMetadata.siteUrl}/rss.xml`,
+    feed_url: `${siteMetadata.siteUrl}/rss`,
     site_url: siteMetadata.siteUrl,
     language: siteMetadata.language,
   });

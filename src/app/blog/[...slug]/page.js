@@ -37,8 +37,8 @@ export async function generateMetadata({ params }) {
       description: post.description,
       type: "article",
       images: [
-        post.image === null
-          ? { url: `/og?title=${post.title}` }
+        post.image === ""
+          ? { url: `${siteMetadata.ogUrl}${post.title}` }
           : { url: post.image },
       ],
     },
@@ -49,7 +49,9 @@ export async function generateMetadata({ params }) {
       creator: siteMetadata.twitter,
       siteId: siteMetadata.twitterid,
       creatorId: siteMetadata.twitterid,
-      images: [post.image === null ? `/og?title=${post.title}` : post.image],
+      images: [
+        post.image === null ? `${siteMetadata.ogUrl}${post.title}` : post.image,
+      ],
     },
   };
 }
@@ -62,7 +64,7 @@ export async function generateStaticParams() {
 
 export default async function PostPage({ params }) {
   const post = await getPostFromParams(params);
-  if (!post) {
+  if (!post ||  post.draft === true) {
     notFound();
   }
   const jsonLd = {
@@ -71,9 +73,9 @@ export default async function PostPage({ params }) {
     datePublished: post.pubDate,
     headline: post.title,
     image:
-      post.image === null
-        ? [`/og?title=${post.title}`]
-        : [post.image, `/og?title=${post.title}`],
+      post.image === ""
+        ? [`${siteMetadata.ogUrl}${post.title}`]
+        : [post.image, `${siteMetadata.ogUrl}${post.title}`],
     description: post.description,
     author: [
       {

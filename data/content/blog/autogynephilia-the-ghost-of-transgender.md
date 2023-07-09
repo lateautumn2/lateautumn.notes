@@ -1,9 +1,8 @@
 ---
-title: "Autogynephilia 自我女性化：跨性别的幽灵"
-pubDate: "2022-12-26"
+title: Autogynephilia 自我女性化：跨性别的幽灵
+pubDate: 2022-12-26
 tags: ["LGBT"]
-
-description: "对男性没有性取向的性别障碍男性，反而对自己成为女性的想法或形象有性取向。"
+description: 对男性没有性取向的性别障碍男性，反而对自己成为女性的想法或形象有性取向。
 ---
 
 ## 前言
@@ -150,6 +149,16 @@ AG 可以是一套行动体系或实践体系，参与到日常生活维持一�
 不明原因，在 google translate，analloerotic/analloeroticism≠ 肛交症/肛门色情主义。
 
 ![analloerotic-google-translate.png](/static/images/analloerotic-google-translate.png)
+
+### 后记
+
+2023 年 7 月 7 日补充：
+
+![autogynephilia_1.jpg](/static/images/autogynephilia_1.jpg)
+
+人口贩卖 + 恋物癖 + AG + 药物滥用，美丽新世界的新篇幅。
+
+当一个地区开始流行女权优先、性别多元化优先，是衰败的迹象。
 
 ### 参考资料
 

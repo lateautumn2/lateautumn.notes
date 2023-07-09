@@ -6,11 +6,12 @@ const siteMetadata = {
   description:
     "读不完的书和无尽的灵感",
   language: "zh",
+  keywords:['prologue', '序言'],
   theme: "system",
   siteUrl: "https://prologue.dev",
   siteRepo: "prologue.dev",
   repoid:"R_kgDOHl4HGg",
-  ogUrl: "https://prologue.dev/og?title=",
+  ogUrl: "https://ogimage-puce.vercel.app/api/og?title=",
   siteLogo: "/static/favicons/favicon.ico",
   image: "/static/images/avatar.png",
   cover: "/static/images/cover2.jpg",

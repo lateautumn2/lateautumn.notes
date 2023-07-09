@@ -11,8 +11,8 @@ export const metadata = {
   generator: 'Next.js',
   applicationName:siteMetadata.siteRepo,
   referrer: 'origin-when-cross-origin',
-  keywords: ['prologue', '序言'],
-  authors: [{ name: '槐序', url: siteMetadata.siteUrl+"/about" }],
+  keywords: siteMetadata.keywords,
+  authors: [{ name: siteMetadata.author, url: siteMetadata.siteUrl+"/about" }],
   creator: siteMetadata.author,
   publisher: siteMetadata.publishName,
   title: siteMetadata.title,
@@ -33,11 +33,13 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="zh" suppressHydrationWarning>
+    <html lang={siteMetadata.language} suppressHydrationWarning>
       <body className="mx-auto px-6 selection:bg-[#c8ffff] dark:selection:bg-[#006482a2] max-w-7xl">
         <Providers>
           <Navbar />
+          <main>
           {children}
+          </main>
           <Footer />
         </Providers>
         <Analytics />

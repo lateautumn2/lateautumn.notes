@@ -19,7 +19,7 @@ export default function Navbar(){
           </Link>
         </div>
         <nav className="flex items-center text-base leading-6">
-          <div className="hidden sm:block">
+          <div className="hidden sm:block" tabIndex="0">
             {headerNavLinks.map((link) => (
               <Link
                 key={link.title}
@@ -32,7 +32,7 @@ export default function Navbar(){
           </div>
         </nav>
         <div className="flex items-center text-base leading-5">
-        <Link href="/search">
+        <Link href="/search" aria-label="Search">
           <svg
               className="h-5 w-5 mb-1 mx-1 text-zinc-500 dark:text-zinc-200"
               xmlns="http://www.w3.org/2000/svg"

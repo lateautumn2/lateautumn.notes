@@ -55,7 +55,7 @@ export async function GET(request) {
             whiteSpace: "pre-wrap",
           }}
         >
-          <p lang="zh">{title}</p>
+          <p lang="zh-CN">{title}</p>
         </div>
         
       </div>

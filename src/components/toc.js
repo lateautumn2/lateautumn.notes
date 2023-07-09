@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 function useHighlighted(id) {
@@ -16,7 +17,7 @@ function useHighlighted(id) {
     };
 
     observer.current = new IntersectionObserver(handleObserver, {
-      rootMargin: '0px 0px -40% 0px',
+      rootMargin: "0px 0px -40% 0px",
       threshold: 0.4,
     });
 
@@ -33,7 +34,7 @@ export default function TableofContent({ heading }) {
   const [highlighted, setHighlighted] = useHighlighted(id);
   return (
     <div>
-      <a
+      <Link
         data-level={heading.level}
         href={`#${heading.text}`}
         className={`"data-[level=two]:ml-1 data-[level=three]:ml-2 leading-9 rounded-lg px-3 py-1 font-normal text-zinc-500 dark:text-zinc-300 hover:bg-zinc-50 hover:text-zinc-900 dark:hover:text-zinc-50 transition duration-300"  ${
@@ -49,7 +50,7 @@ export default function TableofContent({ heading }) {
         }}
       >
         {heading.text}
-      </a>
+      </Link>
     </div>
   );
 }
