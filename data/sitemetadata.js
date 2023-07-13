@@ -1,24 +1,25 @@
 const siteMetadata = {
-  title: "Prologue - 序章",
-  author: "槐序",
-  publishName: "Prologue",
+  title: '深秋的浮生小记',
+  author: '深秋',
+  publishName: 'LATEAUTUMN',
+  say: '人间忽晚，山河已秋',
   headerTitle: "What's past is prologue",
-  description:
-    "读不完的书和无尽的灵感",
-  language: "zh",
-  keywords:['prologue', '序言'],
-  theme: "system",
-  siteUrl: "https://prologue.dev",
-  siteRepo: "prologue.dev",
-  repoid:"R_kgDOHl4HGg",
-  ogUrl: "https://ogimage-puce.vercel.app/api/og?title=",
-  siteLogo: "/static/favicons/favicon.ico",
-  image: "/static/images/avatar.png",
-  cover: "/static/images/cover2.jpg",
-  email: "huaixu@xushilu.com",
-  github: "huaixuOvO",
-  twitter: "@huaixuOvO",
-  twitterid:"1507965040603074564",
-};
+  description: '读不完的书和无尽的灵感',
+  language: 'zh',
+  keywords: ['lateautumn', '深秋'],
+  theme: 'system',
+  siteUrl: 'https://prologue.dev',
+  siteRepo: 'lateautumn.notes',
+  repoid: 'R_kgDOJ7Jq0w',
+  ogUrl: 'https://ogimage-puce.vercel.app/api/og?title=',
+  siteLogo: '/static/favicons/favicon.svg',
+  image: '/static/favicons/avatar.png',
+  cover: '/static/images/cover2.jpg',
+  email: 'lateautumn02@outlook.com',
+  github: 'lateautumn2',
+  twitter: null,
+  twitterid: '1507965040603074564',
+  rss: true
+}
 
-module.exports = siteMetadata;
+module.exports = siteMetadata
