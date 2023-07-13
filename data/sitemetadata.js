@@ -8,7 +8,7 @@ const siteMetadata = {
   language: 'zh',
   keywords: ['lateautumn', '深秋'],
   theme: 'system',
-  siteUrl: 'https://prologue.dev',
+  siteUrl: 'https://notes.lateautumn02.com',
   siteRepo: 'lateautumn.notes',
   repoid: 'R_kgDOJ7Jq0w',
   ogUrl: 'https://ogimage-puce.vercel.app/api/og?title=',
