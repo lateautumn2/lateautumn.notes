@@ -4,18 +4,19 @@ description: 作者槐序，00后，在乐观理性与抑郁现实摇摆
 ---
 
 <img
-  src="/static/favicons/avatar.png"
-  alt="Avatar"
-  width="100"
-  height="100"
-  className="rounded-full max-w-md mx-auto shadow"
-></img>
+src="/static/favicons/avatar.jpg"
+alt="Avatar"
+width="100"
+height="100"
+className="rounded-full max-w-md mx-auto shadow"
+
+> </img>
 
 <p className="text-center font-semibold">读不完的书 和 无尽的灵感</p>
 
 ## 最初
 
-斜杠Slash是我无法摆脱的特征，这也是为何建此站的缘故，我不希望有人看到我的个人网站误认为我是一名不靠谱的金融从业人士，尽管它确实存在这样的可能性，言语间轻则称“市场总是错的”，重则末日预言（可恨的FUD），透露的是风险不确定性和社会分裂，隐喻是全球化失控、后政治、后真相、怀疑论...这些在现实中不受待见的论点，将与现实身份分割记录在此。
+斜杠 Slash 是我无法摆脱的特征，这也是为何建此站的缘故，我不希望有人看到我的个人网站误认为我是一名不靠谱的金融从业人士，尽管它确实存在这样的可能性，言语间轻则称“市场总是错的”，重则末日预言（可恨的 FUD），透露的是风险不确定性和社会分裂，隐喻是全球化失控、后政治、后真相、怀疑论...这些在现实中不受待见的论点，将与现实身份分割记录在此。
 
 ## 历程
 
