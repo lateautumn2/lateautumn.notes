@@ -3,11 +3,17 @@
 @tailwind utilities;
 
 html,
-body
- {
+body {
   word-break: break-all;
 }
-
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1;
+}
 .prose .anchor {
   @apply absolute invisible no-underline;
 
@@ -28,7 +34,7 @@ body
 
 .prose .anchor:after {
   @apply text-cyan-400 dark:text-zinc-500;
-  content: "#";
+  content: '#';
 }
 
 .prose *:hover > .anchor {

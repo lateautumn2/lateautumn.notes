@@ -12,7 +12,7 @@ export default function Home() {
 
   return (
     <div>
-      <div className="mx-auto max-w-2xl py-16 max-h-screen">
+      <div className="mx-auto max-w-2xl pt-16 max-h-screen">
         <h1 className="text-2xl font-semibold py-8">{siteMetadata.headerTitle}</h1>
         <p className="text-xl">{siteMetadata.description}</p>
       </div>
@@ -24,7 +24,7 @@ export default function Home() {
             .slice(0, 5)
             .map((post) => (
               <article key={post._id} className="">
-                <PostCard title={post.title} slug={post.slug} description={post.description} pubDate={post.pubDate} readingTime={post.readingTime.text} />
+                <PostCard title={post.title} slug={post.slug} description={post.description} pubDate={post.pubDate} readingTime={post.readingTime.text} tags={post.tags} />
               </article>
             ))}
           <Link href="/blog" passHref>
